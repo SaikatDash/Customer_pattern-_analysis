@@ -1,0 +1,16 @@
+1.
+df['Review Rating']= df.groupby('Category')['Review Rating'].transform(lambda x: x.fillna(x.median()))
+bcz footwear category have footwear median and clothing have clothing median.
+
+2.
+labels = ['Young Adult','Adult','Middle-Aged','Senior']
+df['age_group']=pd.qcut(df['age'],q=4,labels = labels) 
+#for dividing the age into different category and then categorized according to the age 
+This divides the age column into four groups containing approximately the same number of customers.
+
+labels = [...]: names the four age groups.
+df['age']: the age values being divided.
+pd.qcut(...): creates quantile-based groups.
+q=4: creates four equal-sized groups, also called quartiles.
+labels=labels: assigns the labels in ascending age order.
+df['age_group'] =: stores the resulting group name for each customer.
