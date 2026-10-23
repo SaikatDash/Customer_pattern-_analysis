@@ -50,9 +50,7 @@ The Power BI report is included in [`Customer_Shooping Analysis.pbix`](./Custome
 
 ### Dashboard preview
 
-![Power BI dashboard preview](https://placehold.co/1200x675/111827/F2C811?text=Add+Power+BI+Dashboard+Screenshot)
-
-To add a real preview, export a dashboard page as an image and replace the image URL above with its repository path, for example `./assets/dashboard-preview.png`.
+![Power BI dashboard preview](./assets/customer-behavior-dashboard.png)
 
 ## Project workflow
 
@@ -90,7 +88,6 @@ The SQL analysis in [`project.sql`](./project.sql) investigates:
 | [`project.sql`](./project.sql) | SQL business analysis queries |
 | [`Customer_Shooping Analysis.pbix`](./Customer_Shooping%20Analysis.pbix) | Power BI report |
 | [`Customer Shopping Behavior Analysis.pdf`](./Customer%20Shopping%20Behavior%20Analysis.pdf) | Exported analysis/report document |
-| [`read.txt`](./read.txt) | Analysis notes and transformation explanations |
 
 ## Methods and tools
 
